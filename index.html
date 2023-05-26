@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7bfc97f715.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-bar">
+        <input type="text" placeholder="Search" />
+        <i class="fa fa-magnifying-glass"></i>
+      </div>
+      <div class="Weather-condition">
+        <img class="weather-img" src="/img/clouds.png" alt="" />
+        <p class="current-temp"></p>
+        <p class="weather-info"></p>
+      </div>
+      <div class="wind-conditon">
+        <span>
+          <img src="/img/humidity.png" alt="" />
+          <div>
+            <p class="humidity"></p>
+            <p>Humidity</p>
+          </div>
+        </span>
+        <span>
+          <img src="/img/wind.png" alt="" />
+          <div>
+            <p class="wind-speed"></p>
+            <p>Wind Speed</p>
+          </div>
+        </span>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
